@@ -23,7 +23,7 @@ Jarvis, your trusty geek who gets really excited with automating everything, has
 ### :keyboard: What's in the repo?
 
 - `code` normally includes the vulnerable code to be reviewed. For this level, due to the nature of `GitHub Actions`, this file is referencing `.github/workflows/jarvis-code.yml`.
-- `hack` exploits the vulnerabilities in `code`. For this level, this file is referencing `.github/workflows/jarvis-hack.yml`. Initially, it fails ❌ upon pushing and the only requirement for you to reach the next level is to get this file to pass 🟢. 
+- `hack` exploits the vulnerabilities in `code`. For this level, this file is referencing `.github/workflows/jarvis-hack.yml`. Initially, it fails ❌ upon pushing and the only requirement for you to reach the next level is to get this file to pass 🟢.
 - `hint` files offer guidance if you get stuck. We provide 2 hints for this level.
 - `solution` offers a working solution. Remember, there are several possible solutions.
 
@@ -166,7 +166,7 @@ For Levels 2-4 in Season 2, we encourage you to enable code scanning with CodeQL
 
 If you need assistance, don't hesitate to ask for help in our [GitHub Discussions](https://github.com/skills/secure-code-game/discussions) or on our [Slack](https://join.slack.com/t/ghsecuritylab/shared_invite/zt-2afhxkndc-3ZGRV1i2UMvCZ0DtXgqaQw) in the [#secure-code-game](https://ghsecuritylab.slack.com/archives/C05DH0PSBEZ) channel.
 
-## Season 2 - Level 5: Anarchy 
+## Season 2 - Level 5: Anarchy
 
 _Almost there... but also, so far away! A special level is awaiting for you to complete Season 2!_ :heart:
 

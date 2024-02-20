@@ -26,7 +26,7 @@ jobs:
 # There is no doubt that using a GitHub Action from the marketplace can add value to our CI/CD pipeline.
 # As with every expansion, our attack surface grows. In this case, we are both trusting a GitHub Action
 #  from a questionable third-party and we are also creating a new dependency for our project.
- 
+
 # Here are some steps to guide our decision-making process, before using a new GitHub Action:
 # 1. For simple tasks, avoid external GitHub Actions because the risk might outweigh the value.
 # 2. Use GitHub Actions from Verified Creators because they follow a strict security review process.
@@ -37,7 +37,7 @@ jobs:
 
 # Learn more:
 # New tool to secure your GitHub Actions: https://github.blog/2023-06-26-new-tool-to-secure-your-github-actions/
-# Short video on using third-party GitHub Actions like a PRO: https://www.youtube.com/shorts/eVbXtKylZpo 
+# Short video on using third-party GitHub Actions like a PRO: https://www.youtube.com/shorts/eVbXtKylZpo
 # Short video on avoiding injections from malicious GitHub Actions: https://www.youtube.com/shorts/fVxTV5rZxhc
 # Short video on GitHub Actions' secrets privileges: https://www.youtube.com/shorts/1tD7km5jK70
 # Keeping your GitHub Actions and workflows secure: https://www.youtube.com/watch?v=Jn0kfAuJI2o

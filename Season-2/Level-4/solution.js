@@ -15,7 +15,7 @@ const upload = multer({ storage });
 
 app.post("/ufo/upload", upload.single("file"), (req, res) => {
   return res.status(501).send("Not Implemented.");
-  // We don't need this feature/endpoint, it's a backdoor! 
+  // We don't need this feature/endpoint, it's a backdoor!
   // Removing this prevents an attacker to perform a Remote Code Execution
   // by uploading a file with a .admin extension that is then executed on the server.
   // The best code is less code. If you don't need something, don't include it.
@@ -53,7 +53,7 @@ app.post("/ufo", (req, res) => {
         xmlDoc.toString().includes(".admin")
       ) {
         // Removed the code to execute commands within the .admin file on the server
-        res.status(400).send("Invalid XML");         
+        res.status(400).send("Invalid XML");
       } else {
         res
           .status(200)

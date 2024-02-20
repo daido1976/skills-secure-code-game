@@ -3,9 +3,9 @@
 // Run file by opening a terminal and running the following:
 // $ mocha Season-2/Level-4/hack.js
 
-// If you're inside a Codespace, the above should be running smoothly. 
+// If you're inside a Codespace, the above should be running smoothly.
 
-// In case you're running this locally, please run the following command first, 
+// In case you're running this locally, please run the following command first,
 // and then run the hack file:
 // $ npm install Season-2/Level-4/ && npm install --global mocha
 
@@ -28,7 +28,7 @@ describe("Security tests", () => {
       .send(xmlPayload)
       .expect(400) // Expecting a 400 response due to security measures
       .end((err, res) => {
-        if (err) return done(err + "\n" +  res.text);
+        if (err) return done(err + "\n" + res.text);
         expect(res.text).to.include("Invalid XML");
         done();
       });
@@ -49,7 +49,7 @@ describe("Security tests", () => {
       .send(maliciousXmlPayload)
       .expect(400) // Expecting a 400 response due to security measures
       .end((err, res) => {
-        if (err) return done(err + "\n" +  res.text);
+        if (err) return done(err + "\n" + res.text);
         expect(res.text).to.include("Invalid XML");
         done();
       });
@@ -70,7 +70,7 @@ describe("Security tests", () => {
       .send(maliciousXmlPayload)
       .expect(400) // Expecting a 400 response due to security measures
       .end((err, res) => {
-        if (err) return done(err + "\n" +  res.text);
+        if (err) return done(err + "\n" + res.text);
         expect(res.text).to.include("Invalid XML");
         done();
       });
@@ -90,7 +90,7 @@ describe("Security tests", () => {
         .send(xmlPayload)
         .expect(400) // Expecting a 400 response due to security measures
         .end((err, res) => {
-          if (err) return done(err + "\n" +  res.text);
+          if (err) return done(err + "\n" + res.text);
           expect(res.text).to.include("Invalid XML");
           done();
         });
@@ -114,7 +114,7 @@ describe("Security tests", () => {
       .send(providedXmlPayload)
       .expect(400) // Expecting a 400 response due to security measures
       .end((err, res) => {
-        if (err) return done(err + "\n" +  res.text);
+        if (err) return done(err + "\n" + res.text);
         expect(res.text).to.include("Invalid XML");
         done();
       });

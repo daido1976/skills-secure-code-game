@@ -51,7 +51,7 @@ _A GitHub Security Lab initiative, providing an in-repo learning experience, whe
    - For owner, choose your personal account or an organization to host the repository.
    - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    - Scroll down and click the **Create repository** button at the bottom of the form.
-1. After your new repository is created and our GitHub Actions workflow has completed, you will notice a ❌  sign next to the initial commit, indicating a failing check. This is normal and you can ignore it. You will understand in Season-2/Level-1 why this happens.
+1. After your new repository is created and our GitHub Actions workflow has completed, you will notice a ❌ sign next to the initial commit, indicating a failing check. This is normal and you can ignore it. You will understand in Season-2/Level-1 why this happens.
 1. You can now proceed to the 🛠️ set up section.
 
 ## 🛠️ The set up
@@ -84,7 +84,9 @@ The following local installation guide is adapted to Debian/Ubuntu and CentOS/RH
 ```bash
 uname -a
 ```
+
 - For Debian/Ubuntu, run:
+
 ```bash
 sudo apt-get update
 sudo apt-get install libldap2-dev libsasl2-dev
@@ -156,6 +158,7 @@ Now, it's necessary to install `node` to get the `npm` packages we have provided
 ```bash
 brew install node
 ```
+
 Adapt the command to the package manager you have chosen if it's not homebrew.
 
 3. The `npm` packages needed are specified in `package.json` and `package-lock.json`. Navigate to the `secure-code-game` repository and install them by running:
