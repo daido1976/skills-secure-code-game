@@ -33,8 +33,6 @@ jobs:
 
       - name: Create Status Summary
         run: |
-          status='${{ steps.get_status.outputs.status }}'
-          indicator='${{ steps.get_status.outputs.indicator }}'
           echo "### GitHub Status Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- **Status**: $status" >> $GITHUB_STEP_SUMMARY
-          echo "- **Indicator**: $indicator" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: ${{ steps.get_status.outputs.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Indicator**: ${{ steps.get_status.outputs.indicator }}" >> $GITHUB_STEP_SUMMARY
